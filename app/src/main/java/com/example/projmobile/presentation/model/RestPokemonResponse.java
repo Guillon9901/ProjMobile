@@ -1,4 +1,6 @@
-package com.example.projmobile;
+package com.example.projmobile.presentation.model;
+
+import com.example.projmobile.presentation.model.Pokemon;
 
 import java.util.List;
 
@@ -16,7 +18,7 @@ public class RestPokemonResponse {
         return next;
     }
 
-    List<Pokemon> getResults() {
+    public List<Pokemon> getResults() {
         return results;
     }
 }

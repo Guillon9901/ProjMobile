@@ -1,8 +1,9 @@
-package com.example.projmobile;
+package com.example.projmobile.data;
+
+import com.example.projmobile.presentation.model.RestPokemonResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Query;
 
 public interface PokeApi {
     @GET("/api/v2/pokemon")

@@ -1,4 +1,4 @@
-package com.example.projmobile;
+package com.example.projmobile.presentation.view;
 
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.projmobile.R;
+import com.example.projmobile.presentation.model.Pokemon;
 
 import java.util.List;
 
@@ -42,7 +45,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
     }
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    ListAdapter(List<Pokemon> myDataset) {
+    public ListAdapter(List<Pokemon> myDataset) {
         values = myDataset;
     }
 
