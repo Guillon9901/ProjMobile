@@ -62,6 +62,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void navigateToDetails(Pokemon pokemon) {
-        Toast.makeText(getApplicationContext(), "TODO Navigate", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Navigation à créer", Toast.LENGTH_SHORT).show();
     }
 }
