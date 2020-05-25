@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ProjMobile</string>
+    <string name="detail_screen">Screen detail</string>
+    <string name="key_pokemon">pokemonKey</string>
 </resources>
