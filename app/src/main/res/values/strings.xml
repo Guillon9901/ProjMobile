@@ -3,4 +3,6 @@
     <string name="detail_screen">Screen detail</string>
     <string name="key_pokemon">pokemonKey</string>
     <string name="button_previous">previous</string>
+    <string name="raw_description">Description</string>
+    <string name="raw_title">Example application</string>
 </resources>

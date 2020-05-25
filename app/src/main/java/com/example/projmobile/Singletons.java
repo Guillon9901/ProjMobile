@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.example.projmobile.data.PokeApi;
+import com.example.projmobile.presentation.model.Constants;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

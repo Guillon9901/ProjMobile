@@ -1,4 +1,4 @@
-package com.example.projmobile;
+package com.example.projmobile.presentation.model;
 
 public class Constants {
 

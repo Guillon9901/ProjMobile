@@ -2,7 +2,7 @@ package com.example.projmobile.presentation.controller;
 
 import android.content.SharedPreferences;
 
-import com.example.projmobile.Constants;
+import com.example.projmobile.presentation.model.Constants;
 import com.example.projmobile.Singletons;
 import com.example.projmobile.presentation.model.Pokemon;
 import com.example.projmobile.presentation.model.RestPokemonResponse;
