@@ -30,8 +30,6 @@ public class MainController {
     }
 
     public void onStart(){
-
-
         List<Pokemon> pokemonList = getDataFromCache();
 
         if(pokemonList != null ){
@@ -42,9 +40,6 @@ public class MainController {
     }
 
     private void makeApiCall(){
-
-
-
 
         Call<RestPokemonResponse> call = Singletons.getPokeApi().getPokemonResponse();
         call.enqueue(new Callback<RestPokemonResponse>() {
@@ -65,6 +60,9 @@ public class MainController {
             }
         });
     }
+
+
+
 
     private void saveList(List<Pokemon> pokemonList) {
         String jsonString = gson.toJson(pokemonList);

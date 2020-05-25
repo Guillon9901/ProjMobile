@@ -18,9 +18,9 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
 
-    private RecyclerView recyclerView;
-    private ListAdapter mAdapter;
-    private RecyclerView.LayoutManager layoutManager;
+    public RecyclerView recyclerView;
+    public ListAdapter mAdapter;
+    public RecyclerView.LayoutManager layoutManager;
     private MainController controller;
 
     @Override
@@ -35,8 +35,6 @@ public class MainActivity extends AppCompatActivity {
         );
         controller.onStart();
     }
-
-
 
     public void showList(List<Pokemon> pokemonList) {
         recyclerView = findViewById(R.id.recycler_view);
@@ -54,9 +52,6 @@ public class MainActivity extends AppCompatActivity {
         });
         recyclerView.setAdapter(mAdapter);
     }
-
-
-
 
     public void showError() {
         Toast.makeText(getApplicationContext(), "API Error", Toast.LENGTH_SHORT).show();
